@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:music_app/ui/discovery/discovery.dart';
 import 'package:music_app/ui/home/viewmodel.dart';
+import 'package:music_app/ui/now_playing/audio_player_manager.dart';
 import 'package:music_app/ui/settings/settings.dart';
 import 'package:music_app/ui/user/user.dart';
 
@@ -99,7 +100,9 @@ class _HomeTabpageState extends State<HomeTabpage> {
   @override
   void dispose(){
     _viewModel.songSteam.close();
+    AudioPlayerManager().dispose();
     super.dispose();
+
   }
 
   Widget getBody(){
