@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'package:flutter/material.dart';
 import 'package:music_app/data/repository/repository.dart';
 
@@ -19,3 +20,9 @@ class MusicApp extends StatelessWidget {
     return const Placeholder();
   }
 }
+=======
+import 'package:flutter/cupertino.dart';
+import 'package:music_app/ui/home/home.dart';
+
+void main() => runApp(const MusicApp());
+>>>>>>> 49567f5 (Second commit)

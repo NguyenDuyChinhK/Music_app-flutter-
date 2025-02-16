@@ -1,6 +1,12 @@
 <<<<<<< HEAD
 # Music_app-flutter-
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# Music_app-flutter-
+=======
+>>>>>>> 49567f5 (Second commit)
 # music_app
 
 A new Flutter project.
@@ -18,3 +24,7 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 >>>>>>> 1e83b44 (first commit)
+<<<<<<< HEAD
+=======
+>>>>>>> ba25526 (First commit)
+>>>>>>> 49567f5 (Second commit)
